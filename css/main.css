@@ -1,0 +1,236 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Montserrat";
+}
+
+header {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 212, 255, 0) 80%
+    ),
+    url(../img/capa-madmax2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 113vh;
+  padding: 20px 20px 40px 20px;
+  width: 100%;
+  color: #ffffff;
+  display: grid;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+  margin: 0px 80px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-menu li {
+  font-size: 13px;
+  font-weight: 1000;
+  margin: 0px 30px;
+}
+
+.nav-menu li:hover {
+  color: #e4bb23;
+}
+
+.menu-profile {
+  display: flex;
+  align-items: center;
+}
+
+.menu-profile img {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+  border-radius: 50px;
+}
+
+.menu-profile a {
+  font-size: 13px;
+  font-weight: 1000;
+}
+
+.header-content {
+  padding-left: 140px;
+  width: 60vw;
+}
+
+.header-content h1 {
+  font-size: 4em;
+  font-weight: bold;
+  padding-top: 4.5em;
+  margin: 0;
+}
+
+.header-content-sub ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0 0px 15px 0;
+}
+
+.header-content-sub li {
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header-content-button {
+  background-color: #e4bb23;
+  color: black;
+  border-radius: 24px;
+  font-size: 14px;
+  display: flex;
+  width: 200px;
+  height: 7vh;
+  align-items: center;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.header-content-button:hover {
+  color: black;
+  background-color: #bc9a1d;
+}
+.header-content-button i {
+  color: black;
+  padding-left: 20px;
+  font-size: 22px;
+}
+
+.header-content-sub h5 {
+  font-size: 14px;
+  color: #bc9a1d;
+  font-weight: normal;
+  margin: 0;
+}
+
+.header-content-sub h4 {
+  margin: 30px 0 10px 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.movies {
+  display: grid;
+  margin: auto;
+  max-width: 70vw;
+  width: 100%;
+}
+
+.nav-movies {
+  width: 100%;
+  display: grid;
+  text-align: center;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.nav-movies ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.nav-movies a {
+  text-decoration: none;
+  padding-right: 40px;
+  font-size: 13px;
+  color: #e4bb23;
+  font-weight: 600;
+}
+
+.content-movies {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content-movies li {
+  width: 16.7vw;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.content-movies img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.title-movie {
+  margin: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.genre-movie {
+  margin: 10px;
+  font-size: 13px;
+  color: #e4bb23;
+}
+
+.movie-rating {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.movie-rating i {
+  color: rgb(206, 203, 203);
+  font-size: 20px;
+}
+
+.movie-rating span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12.3em;
+  height: 15vh;
+}
+
+.footer img {
+  height: min-content;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer li {
+  padding-left: 3em;
+}
+
+.footer i {
+	color: rgb(206, 203, 203);
+	font-size: 25px
+}
